@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/sheoPlanet.png";
+import project2 from "../assets/projects/chatify.png";
+import project3 from "../assets/projects/netflix.png";
+import project4 from "../assets/projects/spaceX.png";
+
 
 export const HERO_CONTENT = `I am a passionate and self-taught MERN stack developer with over a year of dedicated self-learning and practical experience. My journey into web development stems from an innate curiosity and a deep enthusiasm for coding. I am committed to building efficient, scalable, and user-friendly web applications that deliver real value.`;
 
@@ -32,32 +33,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sheo Planet - An E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features such as product listings, a shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "EJS", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Chatify - A Real-Time Chat Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A real-time chat application built with Socket.IO and Firebase for mobile authentication.",
+    technologies: ["Tailwind CSS", "React", "Node.js", "Firebase", "TypeScript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Netflix Clone",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Netflix clone with features such as Firebase authentication and dynamic content rendering.",
+    technologies: ["HTML", "CSS", "React", "Firebase"],
   },
   {
-    title: "Blogging Platform",
+    title: "SpaceX Clone",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple clone of the SpaceX website showcasing its design and structure.",
+    technologies: ["HTML", "CSS"],
   },
 ];
 

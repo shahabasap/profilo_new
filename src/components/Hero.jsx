@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { HERO_CONTENT } from '../constants'
-import profilePic from '../assets/kevinRushProfile.jpg'
+import profilePic from '../assets/shahabasProfile.png'
 import { motion } from "motion/react";
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
         visible:{
             x:0,
             opacity:1,
-            transition:{duration:0.5,delay,delay}
+            transition:{duration:0.5,delay}
         }
     })
   return (
@@ -44,7 +44,9 @@ const Hero = () => {
                     initial={{x:100,opacity:0}} 
                     animate={{x:0,opacity:1}}
                     transition={{duration:1,delay:'1.2'}}
-                    src={profilePic} alt="" />
+                    src={profilePic} alt=""
+                    className='border rounded-full h-52 md:h-96' />
+                    
                 </div>
                 </div>
         </div>

@@ -1,5 +1,5 @@
-import React from 'react'
-import aboutImg from '../assets/about.jpg'
+
+// import aboutImg from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants'
 import { motion } from "motion/react";
 
@@ -14,7 +14,7 @@ const About = () => {
           initial={{x:-100,opacity:0}}
           transition={{duration:'0.5'}}
            className='flex items-center justify-center'>
-            <img src={aboutImg} alt="about image" /></motion.div></div>
+            <img src="https://img.pikbest.com/wp/202347/computer-phone-tablet-blue-desk-background-with-digital-devices-laptop-mobile-and-pc-3d-illustration_9759352.jpg!bw700" alt="about image" /></motion.div></div>
             <div className='w-full lg:w-1/2 lg:p-8'>
             <motion.div 
             whileInView={{opacity:1,x:0}}
